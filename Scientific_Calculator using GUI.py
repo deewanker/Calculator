@@ -119,7 +119,7 @@ button20.grid(row=5, column=3, sticky='news')
 
 
 # Load and display an image
-image = Image.open("C:/Users/vipin/OneDrive/Documents/Desktop/2bdd36faf807069af17d6e71e0c09e05.jpg")
+image = Image.open("C:/Users/vipin/Downloads/accountant-concept-illustration/5252601.jpg")
 image = image.resize((400, 400), Image.ANTIALIAS)
 photo = ImageTk.PhotoImage(image)
 label = tk.Label(m, image=photo)
